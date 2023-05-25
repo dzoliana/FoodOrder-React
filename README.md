@@ -1,6 +1,9 @@
 # Food Order App
 
-Food order app where we got a list of meals from which we can choose. We can add meals to the cart, also change their amounts and add them multiple times. We can also view what's in the cart. We can also click order, though for the moment that won't do anything (just add a little output in the console).
+- got a list of meals from which we can choose
+- add meals to the cart, also change their amounts and add them multiple times
+- view what's in the cart
+- click order, though for the moment that won't do anything (just add a little output in the console)
 
 ## Using
 
