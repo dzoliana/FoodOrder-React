@@ -5,7 +5,13 @@
 - view what's in the cart
 - click order, though for the moment that won't do anything (just add a little output in the console)
 
-## Using
+## Workflow
+
+### Layout
+
+#### Header
+
+- 2 blocks: header toolbar (<header>) and image below the header (<div>)
 
 ## Getting started
 
