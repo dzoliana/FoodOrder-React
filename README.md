@@ -7,11 +7,46 @@
 
 ## Workflow
 
+### App
+
+- components Header and Meals
+
 ### Layout
 
 #### Header
 
-- 2 blocks: header toolbar (<header>) and image below the header (<div>)
+- 2 blocks: header toolbar and image below the header
+
+#### HeaderCartButton
+
+- button (with icon, text and number)
+
+### Cart
+
+#### CartIcon
+
+- icon cart
+
+### Meals
+
+#### MealsSummary
+
+- title and summary description
+
+#### AvailableMeals
+
+- dummy meals data
+- rendering data from js object to array of jsx elements
+
+#### Meals
+
+- components MealsSummary and AvailableMeals
+
+#### MealItem
+
+- card layout containing details about each item including name, description, price per unit, quantity available
+
+### UI
 
 ## Getting started
 
