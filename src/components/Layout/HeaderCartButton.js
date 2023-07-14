@@ -22,13 +22,21 @@ const HeaderCartButton = (props) => {
     if (items.length === 0) {
       return;
     }
+    console.log("2nd");
+    console.log(`2nd: ${btnIsHighlighted}`);
     setBtnIsHighlighted(true);
+    console.log(`2nd: ${btnIsHighlighted}`);
 
     const timer = setTimeout(() => {
+      console.log(`timer1: ${btnIsHighlighted}`);
       setBtnIsHighlighted(false);
+      console.log(`timer2: ${btnIsHighlighted}`);
     }, 300);
     return () => {
+      console.log("1st");
+      console.log(`1nd: ${btnIsHighlighted}`);
       clearTimeout(timer);
+      console.log(`1nd: ${btnIsHighlighted}`);
     };
   }, [items]);
 

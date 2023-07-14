@@ -10,20 +10,20 @@ const cartReducer = (state, action) => {
   if (action.type === "ADD") {
     const updatedTotalAmount =
       state.totalAmount + action.item.price * action.item.amount;
-    console.log(updatedTotalAmount);
+    //console.log(updatedTotalAmount);
     //22.99 prva cijena
     //45.98 cijena dva sushija
 
     const existingCartItemIndex = state.items.findIndex(
       (item) => item.id === action.item.id
     );
-    console.log(existingCartItemIndex);
+    //console.log(existingCartItemIndex);
     //-1 kada kliknemo za prvi sushi (trenutno ne postoji nijedan)
     //0 dodan još jedan sushi (jedan već postoji u košarici)
 
     const existingCartItem = state.items[existingCartItemIndex];
     let updatedItems;
-    console.log(existingCartItem);
+    //console.log(existingCartItem);
     //undefinied
     //{id: 'm1', name: 'Sushi', amount: 1, price: 22.99}...
 
@@ -32,15 +32,15 @@ const cartReducer = (state, action) => {
         ...existingCartItem,
         amount: existingCartItem.amount + action.item.amount,
       };
-      console.log(updatedItem);
+      //console.log(updatedItem);
       //{id: 'm1', name: 'Sushi', amount: 2, price: 22.99}
 
       updatedItems = [...state.items];
-      console.log(updatedItems);
+      //console.log(updatedItems);
       //0: {id: 'm1', name: 'Sushi', amount: 2, price: 22.99}
 
       updatedItems[existingCartItemIndex] = updatedItem;
-      console.log(updatedItems);
+      //console.log(updatedItems);
       //0: {id: 'm1', name: 'Sushi', amount: 2, price: 22.99}
     } else {
       updatedItems = state.items.concat(action.item);
@@ -60,6 +60,7 @@ const cartReducer = (state, action) => {
     const existingItem = state.items[existingCartItemIndex];
     const updatedTotalAmount = state.totalAmount - existingItem.price;
     let updatedItems;
+
     if (existingItem.amount === 1) {
       updatedItems = state.items.filter((item) => item.id !== action.id);
     } else {
