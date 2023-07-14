@@ -1,4 +1,4 @@
-# Food Order App
+<h1 align="center">Food Order App</h1>
 
 - got a list of meals from which we can choose
 - add meals to the cart, also change their amounts and add them multiple times
