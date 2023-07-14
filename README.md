@@ -13,38 +13,38 @@
 
 ### Layout
 
-#### Header
+- Header
 
-- 2 blocks: header toolbar and image below the header
+  - 2 blocks: header toolbar and image below the header
 
-#### HeaderCartButton
+- HeaderCartButton
 
-- button (with icon, text and number)
+  - button (with icon, text and number)
 
 ### Cart
 
-#### CartIcon
+- CartIcon
 
-- icon cart
+  - icon cart
 
 ### Meals
 
-#### MealsSummary
+- MealsSummary
 
-- title and summary description
+  - title and summary description
 
-#### AvailableMeals
+- AvailableMeals
 
-- dummy meals data
-- rendering data from js object to array of jsx elements
+  - dummy meals data
+  - rendering data from js object to array of jsx elements
 
-#### Meals
+- Meals
 
-- components MealsSummary and AvailableMeals
+  - components MealsSummary and AvailableMeals
 
-#### MealItem
+- MealItem
 
-- card layout containing details about each item including name, description, price per unit, quantity available
+  - card layout containing details about each item including name, description, price per unit, quantity available
 
 ### UI
 
