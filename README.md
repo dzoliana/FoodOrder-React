@@ -27,7 +27,19 @@
 
   - icon cart
 
+- Cart
+  - display Cart in form of a modal, so currently we return a <div> inside which I render 'cartItems', later we will convert the div into a modal
+  - 2 div: with total amount and with cart actions (close and order button)
+  - 'cartItems' - map all cart items to cartItem JSX elements
+    - map to this array of objects {[ ]}
+    - print the list item <li> with 'item.name'
+    - wrap it with an unordered list (<ul>)
+
 ### Meals
+
+- Meals
+
+  - components MealsSummary and AvailableMeals
 
 - MealsSummary
 
@@ -37,16 +49,27 @@
 
   - dummy meals data
   - rendering data from js object to array of jsx elements
-
-- Meals
-
-  - components MealsSummary and AvailableMeals
+  - pass DUMMY_MEALS through map method and insert the MealItem component
 
 - MealItem
 
   - card layout containing details about each item including name, description, price per unit, quantity available
+  - 2 div el: - title, description and price - form that allow user to enter the amount of food he wants in the basket (form component MealItemForm)
+
+- MealItemForm
+
+  - input and button inside rendered form
+  - Input component (inside the UI) contains a label prop and an input prop that with an JS object - type, min and max for amount limit
 
 ### UI
+
+- Card
+
+  - crating wrapper component for every meal
+  - return a div that wraps children props so that anything passed between the opening and closing brackets of the Card component ends up being used inside the Card
+
+- Input
+  - return a label and input inside div
 
 ## Getting started
 
