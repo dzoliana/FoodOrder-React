@@ -54,7 +54,7 @@
 - MealItem
 
   - card layout containing details about each item including name, description, price per unit, quantity available
-  - 2 div el: - title, description and price - form that allow user to enter the amount of food he wants in the basket (form component MealItemForm)
+  - 2 div el: first with title, description and ssecond with price and form that allow user to enter the amount of food he wants in the basket (form component MealItemForm)
 
 - MealItemForm
 
@@ -69,7 +69,16 @@
   - return a div that wraps children props so that anything passed between the opening and closing brackets of the Card component ends up being used inside the Card
 
 - Input
+
   - return a label and input inside div
+
+- Modal
+  - using React Portal for our background (behind a modal layer that blocks interaction with the rest of the page), and render modal overlay itself with React Portal
+  - creating `Backdrop` and `ModalOverlay` components
+  - return some markup where are backdrop and an overlay one to the other (fragment wrap Backdrop and ModalOverlay)
+  - to make sure that the HTML code is not thrown around, we use Portals - output 2 dynamic expressions { }{ } inside Fragment and call the 'createPortal' method
+    - `portalElement`is constant that accesses `document.getElementById('overlays')`selected div from the index.html public file c
+    - pass that portalElement as the second argument to both create portal calls
 
 ## Getting started
 
