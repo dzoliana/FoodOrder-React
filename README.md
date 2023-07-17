@@ -28,12 +28,12 @@
   - icon cart
 
 - Cart
-  - display Cart in form of a modal, so currently we return a <div> inside which I render 'cartItems', later we will convert the div into a modal
+  - display Cart in form of a modal, so currently we return a div inside which I render 'cartItems', later we will convert the div into a modal
   - 2 div: with total amount and with cart actions (close and order button)
   - 'cartItems' - map all cart items to cartItem JSX elements
     - map to this array of objects {[ ]}
-    - print the list item <li> with 'item.name'
-    - wrap it with an unordered list (<ul>)
+    - print the list item (li) with 'item.name'
+    - wrap it with an unordered list (ul)
 
 ### Meals
 
