@@ -37,25 +37,35 @@ This project was bootstrapped with **Create React App**.
             </ul>
         </li>
         <li>HeaderCartButton
-        <ul>
-            <li>button (with icon, text and number)</li>
+            <ul>
+                <li>button (with icon, text and number)</li>
             </ul>
-            </li>
+        </li>
         </ul>
 </details>
 
-### App
-
-- components `Header` and `Meals`
-
-### Layout
-
-- Header
-
-  - 2 blocks: header toolbar and image below the header
-
-- HeaderCartButton
-  - button (with icon, text and number)
+<details>
+    <summary>Cart</summary>
+        <ul>
+        <li>CartIcon
+            <ul>
+            <li>icon cart</li>
+            </ul>
+        </li>
+        <li>Cart
+            <ul>
+                <li>display Cart in form of a modal, so currently we return a div inside which I render 'cartItems', later we will convert the div into a modal</li>
+                <li>2 div: with total amount and with cart actions (close and order button)</li>
+                <li>'cartItems' - map all cart items to cartItem JSX elements</li>
+                <ul>
+                    <li>map to this array of objects {[ ]}</li>
+                    <li>print the list item (li) with 'item.name'</li>
+                    <li>wrap it with an unordered list (ul)</li>
+                </ul>
+            </ul>
+        </li>
+        </ul>
+</details>
 
 ### Cart
 
