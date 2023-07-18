@@ -149,8 +149,10 @@ This project was bootstrapped with **Create React App**.
                 <li>import 'CartContext' from 'cart-context' and return the JSX code by 'CartContext.Provider'</li>
                 <li>Passing props.children between CartContext.Provider. This allows us to wrap all the components that should get access to this context with CartProvider component. Also add all the logic for managing the context data to this component, so that everything is contained in one component and no other component has to deal with it.</li> 
                 <li>helper 'cartContext' constant is simply an object with totalAmount, items, addItem, removeItem.</li>
-                <li>'addItem' and 'removeItem' in 'cartContext' object point to 'addItemToCartHandler' and 'removeItemFromCartHandler' functions</li>
-                <li>'cartContext' object is set as the value for the value prop on the 'CartContext.Provider'</li>
+                <ul>
+                    <li>'addItem' and 'removeItem' in 'cartContext' object point to 'addItemToCartHandler' and 'removeItemFromCartHandler' functions</li>
+                    <li>'cartContext' object is set as the value for the value prop on the 'CartContext.Provider'</li>
+                </ul>
                 <li>Once a Provider (with the requested value) is used, that Provider no longer has access to the set default content within createContext</li>
                 <li></li>
             </ul>
