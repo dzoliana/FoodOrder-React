@@ -67,45 +67,40 @@ This project was bootstrapped with **Create React App**.
         </ul>
 </details>
 
-### Cart
-
-- CartIcon
-
-  - icon cart
-
-- Cart
-  - display Cart in form of a modal, so currently we return a div inside which I render 'cartItems', later we will convert the div into a modal
-  - 2 div: with total amount and with cart actions (close and order button)
-  - 'cartItems' - map all cart items to cartItem JSX elements
-    - map to this array of objects {[ ]}
-    - print the list item (li) with 'item.name'
-    - wrap it with an unordered list (ul)
-
-### Meals
-
-- Meals
-
-  - components `MealsSummary` and `AvailableMeals`
-
-- MealsSummary
-
-  - title and summary description
-
-- AvailableMeals
-
-  - dummy meals data
-  - rendering data from js object to array of jsx elements
-  - pass `DUMMY_MEALS` through `map` method and insert the `MealItem` component
-
-- MealItem
-
-  - card layout containing details about each item including name, description, price per unit, quantity available
-  - 2 div el: first with title, description and ssecond with price and form that allow user to enter the amount of food he wants in the basket (form component `MealItemForm`)
-
-- MealItemForm
-
-  - `Input` and `button` inside rendered `form`
-  - `Input` component (inside the UI) contains a label prop and an input prop that with an JS object - type, min and max for amount limit
+<details>
+    <summary>Meals</summary>
+        <ul>
+        <li>Meals
+            <ul>
+            <li>components `MealsSummary` and `AvailableMeals`</li>
+            </ul>
+        </li>
+        <li>MealsSummary
+            <ul>
+                <li>title and summary description</li>
+            </ul>
+        </li>
+        <li>AvailabeleMeals
+            <ul>
+            <li>dummy meals data</li>
+            <li>rendering data from js object to array of jsx elements</li>
+            <li>pass `DUMMY_MEALS` through `map` method and insert the `MealItem` component</li>
+            </ul>
+        </li>
+        <li>MealItem
+            <ul>
+                <li>card layout containing details about each item including name, description, price per unit, quantity available</li>
+                <li>2 div el: first with title, description and ssecond with price and form that allow user to enter the amount of food he wants in the basket (form component `MealItemForm`</li>
+            </ul>
+        </li>
+        <li>MealItemForm
+            <ul>
+                <li>`Input` and `button` inside rendered `form`</li>
+                <li>`Input` component (inside the UI) contains a label prop and an input prop that with an JS object - type, min and max for amount limit</li>
+            </ul>
+        </li>
+        </ul>
+</details>
 
 ### UI
 
