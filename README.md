@@ -23,18 +23,16 @@ This project was bootstrapped with **Create React App**.
 
 <details>
            <summary>App</summary>
-           <p>- components `Header` and `Meals`
-</p>
+           - components `Header` and `Meals`
+
 </details>
 
 <details>
     <summary>Layout</summary>
-    <p>
     - Header
         - 2 blocks: header toolbar and image below the header
     - HeaderCartButton
         - button (with icon, text and number)
-    </p>
 </details>
 
 ### App
