@@ -26,6 +26,7 @@ This project was bootstrapped with **Create React App**.
            <ul>
                 <li>components 'Header' and 'Meals'</li>
                 <li>'useState' for evaluating dinamic expression and rendering component 'Cart'</li>
+                <li>using 'CartProvider' component to wrap all components that need access to the cart (all components that are displayed in App component)</li>
             </ul>
 </details>
 
@@ -154,7 +155,6 @@ This project was bootstrapped with **Create React App**.
                     <li>'cartContext' object is set as the value for the value prop on the 'CartContext.Provider'</li>
                 </ul>
                 <li>Once a Provider (with the requested value) is used, that Provider no longer has access to the set default content within createContext</li>
-                <li></li>
             </ul>
         </li>
         </ul>
