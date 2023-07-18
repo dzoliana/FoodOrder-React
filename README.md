@@ -5,6 +5,20 @@
 - view what's in the cart
 - click order, though for the moment that won't do anything (just add a little output in the console)
 
+<p>
+    <img src="/src/assets/meals1.png" hspace="10" >
+    <img src="/src/assets/meals2.png" hspace="10" >
+</p>
+
+## Getting started
+
+This project was bootstrapped with **Create React App**.
+
+1. Clone/Download the repo.
+2. Run `npm install`.
+3. Run `npm start` to spin the up the local dev server port 3000. [http://localhost:3000](http://localhost:3000/ "http://localhost:3000")
+4. Make required changes to suit your needs.
+
 ## Workflow
 
 ### App
@@ -78,12 +92,3 @@
   - to make sure that the HTML code is not thrown around, we use Portals - output 2 dynamic expressions { }{ } inside Fragment and call the `createPortal` method
     - `portalElement`is constant that accesses `document.getElementById('overlays')` selected div from the index.html public file
     - pass that portalElement as the second argument to both create portal calls
-
-## Getting started
-
-This project was bootstrapped with **Create React App**.
-
-1. Clone/Download the repo.
-2. Run `npm install`.
-3. Run `npm start` to spin the up the local dev server port 3000. [http://localhost:3000](http://localhost:3000/ "http://localhost:3000")
-4. Make required changes to suit your needs.
