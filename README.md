@@ -6,8 +6,8 @@
 - click order, though for the moment that won't do anything (just add a little output in the console)
 
 <p>
-    <img width="360" height="150" src="/src/assets/meals1.png" hspace="10" >
-    <img width="360" height="150" src="/src/assets/meals2.png" hspace="10" >
+    <img src="/src/assets/meals1.png" hspace="10" >
+    <img src="/src/assets/meals2.png" hspace="10" >
 </p>
 
 ## Getting started
@@ -20,6 +20,22 @@ This project was bootstrapped with **Create React App**.
 4. Make required changes to suit your needs.
 
 ## Workflow
+
+<details>
+           <summary>App</summary>
+           <p>- components `Header` and `Meals`
+</p>
+</details>
+
+<details>
+    <summary>Layout</summary>
+    <p>
+    - Header
+        - 2 blocks: header toolbar and image below the header
+    - HeaderCartButton
+        - button (with icon, text and number)
+    </p>
+</details>
 
 ### App
 
