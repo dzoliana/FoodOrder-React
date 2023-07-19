@@ -21,12 +21,16 @@ This project was bootstrapped with **Create React App**.
 
 ## Workflow
 
+<p align="center">
+    <img width="100" height="100" src="/src/assets/workflow.png" >
+</p>
+
 <details>
            <summary>App</summary>
            <ul>
                 <li>components 'Header' and 'Meals'</li>
                 <li>'useState' for evaluating dinamic expression and rendering component 'Cart'</li>
-                <li>using 'CartProvider' component to wrap all components that need access to the cart (all components that are displayed in App component)</li>
+                <li>using 'CartProvider' component to wrap all components that need access to the cart (all components that are displayed in  component)</li>
             </ul>
 </details>
 
