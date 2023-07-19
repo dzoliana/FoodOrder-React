@@ -22,7 +22,7 @@ This project was bootstrapped with **Create React App**.
 ## Workflow
 
 <p align="center">
-    <img width="100" height="100" src="/src/assets/workflow.png" >
+    <img width="200" height="200" src="/src/assets/workflow.png" >
 </p>
 
 <details>
