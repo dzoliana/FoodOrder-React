@@ -48,9 +48,13 @@ This project was bootstrapped with **Create React App**.
         </li>
         <li>HeaderCartButton
             <ul>
-                <li>button (with icon, text and number)</li>
-                <li></li>
-                <li></li>
+                <li>button (with CartIcon, text and number)</li>
+                <li>for displaying number of items in cart</li>
+                <ul>
+                    <li>import 'useContext' and 'CartContext'</li>
+                    <li>call 'useContext' and pass 'CartContext'</li>
+                    <li>add 'numberOfCartItems' for access to 'cartCtx.items' using 'reduce' method (allows us to transform an array of data into a single value)</li>
+                </ul>
                 <li></li>
                 <li></li>
                 <li></li>
