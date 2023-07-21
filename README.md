@@ -22,7 +22,7 @@ This project was bootstrapped with **Create React App**.
 ## Workflow
 
 <p align="center">
-    <img width="200" height="200" src="/src/assets/workflow.png" >
+    <img width="270" height="270" src="/src/assets/workflow.png" >
 </p>
 
 <details>
@@ -45,6 +45,12 @@ This project was bootstrapped with **Create React App**.
         <li>HeaderCartButton
             <ul>
                 <li>button (with icon, text and number)</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </li>
         </ul>

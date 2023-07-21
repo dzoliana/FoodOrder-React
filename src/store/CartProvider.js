@@ -83,7 +83,7 @@ const CartProvider = (props) => {
     cartReducer,
     defaultCartState
   );
-
+  //console.log(cartState);
   const addItemToCartHandler = (item) => {
     dispatchCartAction({ type: "ADD", item: item });
   };
