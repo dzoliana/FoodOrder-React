@@ -19,6 +19,10 @@ This project was bootstrapped with **Create React App**.
 3. Run `npm start` to spin the up the local dev server port 3000. [http://localhost:3000](http://localhost:3000/ "http://localhost:3000")
 4. Make required changes to suit your needs.
 
+## Deployed site
+
+- [Food order app](https://food-order-app-adz.netlify.app/ "food-order-app-adz")
+
 ## Workflow
 
 <p align="center">
