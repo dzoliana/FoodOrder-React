@@ -38,6 +38,6 @@ This project was bootstrapped with **Create React App**.
                 <ul><li>form for Name, Adress, Postal code and City</li>
                 <li>Confirm and Cancel buttons</li></ul>
                 <li>adiing Checkout to Cart component</li>
-                <li></li>
+                <li>importing useRef for reading form values</li>
             </ul>
 </details>
