@@ -34,5 +34,10 @@ This project was bootstrapped with **Create React App**.
                 <li>adding const loadedMeals for converting object to array through for loop</li>
                 <li>adding isLoading state</li>
                 <li>handling errors by adding httpError state</li>
+                <li>creating Checkout component to Order button for sending order to the backend</li>
+                <ul><li>form for Name, Adress, Postal code and City</li>
+                <li>Confirm and Cancel buttons</li></ul>
+                <li>adiing Checkout to Cart component</li>
+                <li></li>
             </ul>
 </details>
