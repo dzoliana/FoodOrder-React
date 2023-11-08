@@ -32,6 +32,6 @@ This project was bootstrapped with **Create React App**.
                 <li>adding useEffect() for fetch()</li>
                 <li>responseData will be object with id as key and data as neasted object</li>
                 <li>adding const loadedMeals for converting object to array through for loop</li>
-                <li>using 'CartProvider' component to wrap all components that need access to the cart (all components that are displayed in  component)</li>
+                <li>adding isLoading state</li>
             </ul>
 </details>
