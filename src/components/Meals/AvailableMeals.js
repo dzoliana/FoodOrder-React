@@ -29,6 +29,7 @@ const AvailableMeals = () => {
     fetchMeals();
   }, []);
 
+  console.log(meals);
   const mealsList = meals.map((meal) => (
     <MealItem
       key={meal.id}
@@ -38,7 +39,7 @@ const AvailableMeals = () => {
       price={meal.price}
     />
   ));
-
+  console.log(mealsList);
   return (
     <section className={classes.meals}>
       <Card>
