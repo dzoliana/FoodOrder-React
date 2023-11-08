@@ -33,5 +33,6 @@ This project was bootstrapped with **Create React App**.
                 <li>responseData will be object with id as key and data as neasted object</li>
                 <li>adding const loadedMeals for converting object to array through for loop</li>
                 <li>adding isLoading state</li>
+                <li>handling errors by adding httpError state</li>
             </ul>
 </details>
