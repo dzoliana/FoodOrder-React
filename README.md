@@ -39,5 +39,12 @@ This project was bootstrapped with **Create React App**.
                 <li>Confirm and Cancel buttons</li></ul>
                 <li>adiing Checkout to Cart component</li>
                 <li>importing useRef for reading form values</li>
+                <li>adding form validation</li>
+                <ul>
+                    <li>adding helper functions isEmpty and isNotFiveChars in Checkout for checking is value empty and is postal code equal 5 digits</li>
+                    <li>adding const formIsValid as main validation</li>
+                    <li>create useState with object (name, street, city, postalCode)</li>
+                    <li>adding css class for invalid input</li>
+                </ul>
             </ul>
 </details>
