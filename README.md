@@ -201,5 +201,12 @@ This project was bootstrapped with **Create React App**.
                     <li>create useState with object (name, street, city, postalCode)</li>
                     <li>adding css class for invalid input</li>
                 </ul>
+                <li>adding useState isSubmitting for managing submit state in Cart component (change when submitOrderHandler is called)</li>
+                <li>make fetch as async await function</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
 </details>
