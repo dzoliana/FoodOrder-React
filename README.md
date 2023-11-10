@@ -3,7 +3,7 @@
 - got a list of meals we can choose
 - add meals to the cart, also change their amounts and add them multiple times
 - view what's in the cart
-- click order (for now that won't do anything - just add a little output in the console)
+- click order and open checkout with input form data
 
 <p>
     <img src="/src/assets/meals1.png" hspace="10" >
@@ -181,9 +181,9 @@ This project was bootstrapped with **Create React App**.
 </details>
 
 <details>
-           <summary>Available Meals</summary>
+           <summary>Adding backend</summary>
            <ul>
-                <li>remove DUMMY_MEALS</li>
+                <li>remove DUMMY_MEALS from AvailableMeals</li>
                 <li>adding useEffect() for fetch()</li>
                 <li>responseData will be object with id as key and data as neasted object</li>
                 <li>adding const loadedMeals for converting object to array through for loop</li>
