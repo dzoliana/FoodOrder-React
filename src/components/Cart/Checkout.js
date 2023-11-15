@@ -46,6 +46,16 @@ const Checkout = (props) => {
     if (!formIsValid) {
       return;
     }
+<<<<<<< HEAD
+=======
+
+    props.onConfirm({
+      name: enteredName,
+      street: enteredStreet,
+      postalCode: enteredPostalCode,
+      city: enteredCity,
+    });
+>>>>>>> withBackend
   };
 
   const nameControlClasses = `${classes.control} ${
